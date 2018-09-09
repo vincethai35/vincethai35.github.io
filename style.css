@@ -12,6 +12,7 @@ h1 {
 
 .backwardsName {
   text-align: right;
+  direction: rtl;
 }
 
 nav ul {
@@ -30,6 +31,7 @@ nav li {
 
 .description {
   display: block;
+  font-family:
 }
 
 .education ul, .skills ul {
