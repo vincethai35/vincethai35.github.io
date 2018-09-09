@@ -30,8 +30,12 @@ nav li {
 }
 
 .description {
-  display: block;
-  font-family:
+  color: white;
+  background-color: lightgrey;
+  font-family: 'Asap', sans-serif;
+  width: 300px;
+  padding: 25px;
+  border: 5px solid white;
 }
 
 .education ul, .skills ul {
