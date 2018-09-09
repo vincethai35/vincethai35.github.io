@@ -6,14 +6,14 @@ h1 {
   color: pink;
 }
 
-nav ul {
+ul #navig {
   display: inline;
   float: right;
   position: relative;
   top: 10px;
 }
 
-nav li {
+li {
   display: inline;
   font-family: 'Raleway', sans-serif;
   padding: 0 16px;
