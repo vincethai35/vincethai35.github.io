@@ -7,7 +7,7 @@
 
 .home {
   font-family: 'Raleway', sans-serif;
-  padding: 50px;
+  padding: 30px;
 
 }
 
@@ -16,4 +16,10 @@
   padding: 100px;
   margin: 20px;
   font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+}
+
+.skills li {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 40px;
 }
