@@ -8,4 +8,12 @@
 .home {
   font-family: 'Raleway', sans-serif;
   padding: 50px;
+
+}
+
+
+.education li {
+  padding: 100px;
+  margin: 20px;
+  font-family: 'Raleway', sans-serif;
 }
