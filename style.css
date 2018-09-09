@@ -8,13 +8,12 @@ h1 {
 
 .frontName {
   text-align: left;
-  width: 50%;
+  width: 70%;
 }
 
 .backwardsName {
   text-align: right;
-  direction: rtl;
-  width: 50%;
+  width: 70%;
 }
 
 nav ul {
