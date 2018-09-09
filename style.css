@@ -30,5 +30,6 @@
 
 h2 {
   font-family: 'Dosis', sans-serif;
-  padding-left: 30px;
+  position: relative;
+  left: 50px;
 }
