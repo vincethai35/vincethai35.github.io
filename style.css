@@ -1,4 +1,4 @@
-.jumbotron h1 {
+h1 {
   display: block;
   font-size: 150px;
   font-width: 700px;
@@ -9,11 +9,21 @@
 .frontName {
   text-align: left;
   width: 70%;
+  display: block;
+  font-size: 150px;
+  font-width: 700px;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  color: pink;
 }
 
 .backwardsName {
   text-align: right;
   width: 70%;
+  display: block;
+  font-size: 150px;
+  font-width: 700px;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  color: pink;
 }
 
 header nav ul {
@@ -44,6 +54,7 @@ nav li {
 }
 
 .education li {
+  width: 75%;
   padding: 10px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 20px;
@@ -56,6 +67,7 @@ nav li {
 }
 
 h2 {
+  width: 25%
   font-family: 'Dosis', sans-serif;
   position: relative;
   left: 50px;
