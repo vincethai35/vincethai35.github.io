@@ -5,7 +5,7 @@
   color: pink;
 }
 
-.navigation {
+#navigation {
   font-family: 'Raleway', sans-serif;
   padding-right: 30px;
   float: right;
@@ -14,10 +14,9 @@
 
 
 .education li {
-  padding: 100px;
-  margin: 20px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 40px;
+  padding: 30px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 .skills li {
