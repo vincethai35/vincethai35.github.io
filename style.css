@@ -5,10 +5,11 @@
   color: pink;
 }
 
-.home {
+.navigation {
   font-family: 'Raleway', sans-serif;
-  padding: 30px;
-
+  padding-right: 30px;
+  float: right;
+  margin-top: 30px;
 }
 
 
