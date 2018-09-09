@@ -12,18 +12,19 @@
   margin-top: 30px;
 }
 
+.education ul, .skills ul {
+  list-style-type: none;
+}
 
 .education li {
   padding: 30px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 20px;
-  list-style-type: none;
 }
 
 .skills li {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 40px;
-  list-style-type: none;
 }
 
 h2 {
