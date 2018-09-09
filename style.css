@@ -8,11 +8,13 @@ h1 {
 
 .frontName {
   text-align: left;
+  width: 50%;
 }
 
 .backwardsName {
   text-align: right;
   direction: rtl;
+  width: 50%;
 }
 
 nav ul {
@@ -43,7 +45,7 @@ nav li {
 }
 
 .education li {
-  padding: 30px;
+  padding: 10px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 20px;
 }
@@ -51,6 +53,7 @@ nav li {
 .skills li {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 20px;
+  padding: 10px;
 }
 
 h2 {
