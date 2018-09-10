@@ -2,8 +2,9 @@ header {
   padding: 20px;
 }
 
-
-
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
 
 h1 {
   display: block;
@@ -11,6 +12,14 @@ h1 {
   font-width: 700px;
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
   color: pink;
+}
+
+.exp_container {
+  background-color: red;
+}
+
+.exp_container ul {
+  list-style-type: none;
 }
 
 .jumbotron h1 {
@@ -56,18 +65,12 @@ nav li {
   list-style-type: none;
 }
 
-.education li {
-  width: 75%;
-  padding: 10px;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 20px;
-}
 
-.skills li {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 20px;
-  padding: 10px;
-}
+
+
+
+
+
 
 h2 {
   width: 25%
