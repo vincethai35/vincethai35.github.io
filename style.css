@@ -30,11 +30,12 @@ h1 {
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
   color: pink;
 }
-.frontName {
+
+.jumbtron #frontName {
   text-align: left;
 }
 
-.backwardsName {
+.jumbotron #backwardsName {
   text-align: right;
 }
 
