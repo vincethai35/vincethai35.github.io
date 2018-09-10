@@ -94,6 +94,7 @@ h1 {
   border: 5px solid white;
 }
 
+
 /* SOCIAL MEDIA BUTTON */
 .fa {
   padding: 20px;
@@ -112,4 +113,28 @@ h1 {
 .fa-facebook, .fa-linkedin, .fa-instagram {
   background: lightgrey;
   color: white;
+}
+
+/* FORM */
+form {
+  width: 600px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 2px solid white;
+  background-color: lightblue;
+}
+
+input, textarea {
+  background-color: lightblue;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  padding: 12px;
+  width: 60%;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+button {
+
 }
