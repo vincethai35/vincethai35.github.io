@@ -37,7 +37,7 @@ p, h3, h2, .skl_container li {
   font-size: 14px;
 }
 
-h3 {
+h3, .skl_container li {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -50,8 +50,13 @@ h3 {
   text-align: left;
 }
 
+.skl_container ul {
+  position: relative;
+  top: 20px;
+}
+
 .skl_container {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 /* HOME PAGE */
