@@ -69,19 +69,21 @@ body {
   overflow-x: hidden;
 }
 
-#titlescreen, #expscreen, #aboutscreen {
-  overflow-x: hidden;
-  text-align: center;
-  font-size: 100px;
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
-  color: pink;
+.hero-image {
   background-image: url("https://ih0.redbubble.net/image.512947120.8516/pp,550x550.jpg:");
-  height: 250px;
+  height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.hero-text{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: pink;
 }
 
 .description {
