@@ -33,14 +33,18 @@ body {
 
 
 /* EXPERIENCE PAGE*/
-.exp_container {
-  color: white;
-  background-color: tan;
+.exp_container h3, .exp_container p {
+  color: black;
+  background-color: white;
   padding: 30px;
-  border: 10px solid white;
-  font-family: 'Asap', sans-serif;
-
+  font-family: proxima-nova;
+  font-size: 14px;
 }
+
+.exp_container h3 {
+  text-transform: uppercase;
+}
+
 
 .skl_container {
   color: white;
