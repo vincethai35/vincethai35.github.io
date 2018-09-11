@@ -30,21 +30,29 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-
+p, h3, h2 {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  padding: 15px;
+  background-color: white;
+}
 
 /* EXPERIENCE PAGE*/
 .exp_container h3, .exp_container p {
-  color: black;
-  background-color: white;
-  padding: 30px;
-  font-family: proxima-nova;
   font-size: 14px;
 }
 
-.exp_container h3 {
+h3 {
   text-transform: uppercase;
 }
 
+.col-sm-4 {
+  text-align: center;
+}
+
+.col-sm-8 {
+  text-align: left;
+}
 
 .skl_container {
   color: white;
@@ -55,34 +63,33 @@ body {
 
 }
 
-.exp_container ul, .skl_container ul {
+.skl_container ul {
   list-style-type: none;
 }
 
-.exp_container li, .skl_container li {
+.skl_container li {
   padding: 15px;
 }
 
 /* HOME PAGE */
 .jumbotron h1 {
   overflow-x: hidden;
-  font-size: 50px;
+  text-align: center;
+  font-size: 100px;
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
   color: pink;
   position: relative;
   left: 70px;
   border: 1px solid black;
-  box-sizing: border-box;
 }
 
 .jumbotron h2{
-  font-size: 50px;
+  font-size: 100px;
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
   color: pink;
   position: relative;
   left: 150px;
   opacity: 0.3;
-  box-sizing: border-box;
 }
 
 
