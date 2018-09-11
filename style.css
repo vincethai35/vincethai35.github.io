@@ -59,6 +59,11 @@ body {
   overflow-x: hidden;
 }
 
+.jumbotron {
+  background-color:transparent !important;
+  background-image: url("https://ih0.redbubble.net/image.512947120.8516/pp,550x550.jpg:");
+}
+
 .jumbotron h1, .jumbotron h2{
   overflow-x: hidden;
   text-align: center;
@@ -66,7 +71,6 @@ body {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   color: pink;
-  border: 1px solid black;
 }
 
 .jumbotron h2{
