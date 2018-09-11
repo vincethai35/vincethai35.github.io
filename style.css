@@ -50,6 +50,11 @@ h3, .skl_container li {
   text-align: left;
 }
 
+.col-sm-4 {
+    position: relative;
+    left: 30px;
+}
+
 .skl_container ul {
   position: relative;
   top: 20px;
@@ -64,31 +69,26 @@ body {
   overflow-x: hidden;
 }
 
-.jumbotron {
-  background-color:transparent !important;
-  background-image: url("https://ih0.redbubble.net/image.512947120.8516/pp,550x550.jpg:");
-}
-
-.jumbotron h1, .jumbotron h2{
+#titlescreen, #expscreen, #aboutscreen {
   overflow-x: hidden;
   text-align: center;
   font-size: 100px;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   color: pink;
-}
-
-.jumbotron h2{
-  opacity: 0.7;
+  background-image: url("https://ih0.redbubble.net/image.512947120.8516/pp,550x550.jpg:");
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .description {
-  color: white;
-  background-color: lightgrey;
-  font-family: 'Asap', sans-serif;
-  width: 300px;
-  padding: 25px;
-  border: 5px solid white;
+  color: black;
+  opacity: 0.8;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
 }
 
 
