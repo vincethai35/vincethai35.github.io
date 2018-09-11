@@ -81,18 +81,17 @@ body {
 }
 
 .hero-text{
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  /*background-color: rgba(0,0,0, 0.4);  Black w/opacity/see-through */
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: pink;
+  color: white;
   font-weight: bold;
-  border: 3px solid #f1f1f1;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -100%);
   z-index: 2;
   width: 80%;
   padding: 20px;
