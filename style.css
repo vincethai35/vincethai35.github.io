@@ -39,6 +39,7 @@ p, h3, h2, .skl_container li {
 
 h3 {
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .exp_container p {
