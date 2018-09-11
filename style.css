@@ -68,16 +68,20 @@ h3, .skl_container li {
 body {
   overflow-x: hidden;
 }
+
+html {
+  height: 100%;
+}
 /*background-image: url("http://images6.fanpop.com/image/photos/34500000/San-Francisco-at-Night-san-francisco-34546719-2880-1800.jpg");*/
 
 .hero-image {
   background-image: url("https://img.fonwall.ru/o/46/most_lavochki_skameyki_perila_zabor_61.jpg");
-  height: 400px;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   filter: blur(8px);
-  -webkit-filter: blur(8px);
+  -webkit-filter: blur(2px);
   position: relative;
 }
 
