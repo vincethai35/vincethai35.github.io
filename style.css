@@ -3,25 +3,27 @@
   margin:0; padding:0;
 }
 
-header ul {
+ul {
   list-style-type: none;
-  position: sticky;
   top: 0;
+  margin: 0;
+  position: absolute;
+  transform: translate(250%, 50%);
 }
 
-header li {
+li {
   display: inline;
   float: right;
 }
 
-header li a {
+li a {
   display: block;
   color: lightgrey;
   text-align: center;
   padding: 15px 15px;
 }
 
-header li a:hover {
+li a:hover {
   color: black;
 }
 
