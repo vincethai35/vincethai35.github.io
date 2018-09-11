@@ -50,6 +50,10 @@ h3 {
   text-align: left;
 }
 
+.skl_container {
+  margin-bottom: 30px;
+}
+
 /* HOME PAGE */
 body {
   overflow-x: hidden;
