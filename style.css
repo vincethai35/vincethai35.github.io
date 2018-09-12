@@ -2,6 +2,15 @@
   margin:0; padding:0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
 /* ---------------INDEX PAGE--------------------- */
 .titlepage-image {
   background-image: url("https://img.fonwall.ru/o/46/most_lavochki_skameyki_perila_zabor_61.jpg");
@@ -31,7 +40,7 @@
   top: 0;
   margin: 0;
   position: absolute;
-  transform: translate(250%, 50%);
+  transform: translate(220%, 50%);
 }
 
 .titlepage-nav li {
@@ -57,7 +66,31 @@
 
 /* ----------- EXPERIENCE PAGE -------------- */
 
-p, h3, h2, .skl_container li {
+.exppage-nav ul {
+  list-style-type: none;
+  top: 0;
+  margin: 0;
+}
+
+.exppage-nav li {
+  position: relative;
+  top: 20px;
+  right: 30px;
+  font-family: 'Raleway', sans-serif;
+  display: inline;
+  float: right;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.exppage-nav li a {
+  color: lightgrey;
+  text-align: center;
+  padding: 15px 15px;
+}
+
+p, h3, h2, .skills-container li {
+  /* set font for everything on exp page */
   font-family: 'Raleway', sans-serif;
   color: black;
   padding: 12px;
@@ -65,16 +98,19 @@ p, h3, h2, .skl_container li {
 }
 
 
-.exp_container h3, .exp_container p, .skl_container li {
+p, h3, .skills-container li {
+  /* everything but h2 is changed to smaller font */
   font-size: 14px;
 }
 
-h3, .skl_container li {
+h3, .skills-container li {
+  /* uppercase and fancy font for skills list and edu heading */
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
-.exp_container p {
+p {
+  /* edu description is set w opacity */
   opacity: 0.7;
 }
 
@@ -84,32 +120,23 @@ h3, .skl_container li {
 
 .col-sm-4 {
     position: relative;
-    left: 30px;
+    left: 50px;
 }
 
-.skl_container ul {
+.skills-container ul {
+  /* so top of skills list aligns with header for skills */
   position: relative;
   top: 20px;
 }
 
-.skl_container {
+.skills-container {
+  /* gives spacing betw skills and education */
   margin-bottom: 40px;
 }
 
-/* HOME PAGE */
-body {
-  overflow-x: hidden;
-}
+/* ------------------------------------------ */
 
-body, html {
-    height: 100%;
-    margin: 0;
-}
-/*background-image: url("http://images6.fanpop.com/image/photos/34500000/San-Francisco-at-Night-san-francisco-34546719-2880-1800.jpg");*/
-
-
-
-
+/* ------------ ABOUT PAGE ---------------- */
 
 .description {
   color: black;
@@ -119,29 +146,9 @@ body, html {
 }
 
 
-/* SOCIAL MEDIA BUTTON */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 10px;
-  position: relative;
-  left: 150px;
-}
 
 
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook, .fa-linkedin, .fa-instagram {
-  background: lightgrey;
-  color: white;
-}
-
-/* FORM */
+/* ------------ CONTACT ------------------ */
 form {
   width: 600px;
   margin: 0 auto;
