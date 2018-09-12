@@ -74,8 +74,8 @@ body, html {
 
 .exppage-nav li {
   position: relative;
-  top: 20px;
-  right: 30px;
+  top: 40px;
+  right: 33px;
   font-family: 'Raleway', sans-serif;
   display: inline;
   float: right;
@@ -86,7 +86,15 @@ body, html {
 .exppage-nav li a {
   color: lightgrey;
   text-align: center;
-  padding: 15px 15px;
+  padding: 15px 17px;
+}
+
+.header-container {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  margin-bottom: 100px;
+  padding: 50px;
 }
 
 p, h3, h2, .skills-container li {
@@ -96,7 +104,6 @@ p, h3, h2, .skills-container li {
   padding: 12px;
   background-color: white;
 }
-
 
 p, h3, .skills-container li {
   /* everything but h2 is changed to smaller font */
@@ -127,6 +134,7 @@ p {
   /* so top of skills list aligns with header for skills */
   position: relative;
   top: 20px;
+  left: 20px;
 }
 
 .skills-container {
