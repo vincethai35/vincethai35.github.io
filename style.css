@@ -89,7 +89,7 @@ body, html {
   padding: 15px 17px;
 }
 
-.header-container {
+.exp-head-container, .about-head-container, .contact-head-container {
   font-family: 'Raleway', sans-serif;
   text-align: center;
   position: relative;
@@ -111,7 +111,7 @@ p, h3, .skills-container li {
   font-size: 14px;
 }
 
-h3, .skills-container li, .header-container {
+h3, .skills-container li, .exp-head-container {
   /* uppercase and fancy font for skills list and edu heading */
   text-transform: uppercase;
   letter-spacing: 2px;
