@@ -8,10 +8,11 @@ ul {
   top: 0;
   margin: 0;
   position: absolute;
-  transform: translate(250%, 50%);
+  transform: translate(300%, 50%);
 }
 
 li {
+  font-family: 'Raleway', sans-serif;
   display: inline;
   float: right;
 }
@@ -39,7 +40,7 @@ p, h3, h2, .skl_container li {
   font-size: 14px;
 }
 
-h3, .skl_container li {
+h3, .skl_container li, li {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
