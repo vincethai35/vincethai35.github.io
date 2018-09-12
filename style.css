@@ -66,13 +66,13 @@ body, html {
 
 /* ----------- EXPERIENCE PAGE -------------- */
 
-.exppage-nav ul {
+.exppage-nav ul, .aboutpage-nav ul, .contactpage-nav ul {
   list-style-type: none;
   top: 0;
   margin: 0;
 }
 
-.exppage-nav li {
+.exppage-nav li, .aboutpage-nav li, .contactpage-nav li {
   position: relative;
   top: 40px;
   right: 38px;
@@ -83,7 +83,7 @@ body, html {
   letter-spacing: 2px;
 }
 
-.exppage-nav li a {
+.exppage-nav li a, .aboutpage-nav li a, .contactpage-nav li a {
   color: lightgrey;
   text-align: center;
   padding: 15px 17px;
@@ -129,7 +129,8 @@ p {
 
 .col-sm-4 {
     position: relative;
-    left: 50px;
+    left: 100px;
+    font-size: 14px;
 }
 
 .skills-container ul {
