@@ -75,7 +75,7 @@ body, html {
 .exppage-nav li {
   position: relative;
   top: 40px;
-  right: 33px;
+  right: 38px;
   font-family: 'Raleway', sans-serif;
   display: inline;
   float: right;
@@ -90,9 +90,11 @@ body, html {
 }
 
 .header-container {
+  font-family: 'Raleway', sans-serif;
+  background-color:
   text-align: center;
   position: relative;
-  top: 50px;
+  top: 100px;
   margin-bottom: 100px;
   padding: 50px;
 }
@@ -110,7 +112,7 @@ p, h3, .skills-container li {
   font-size: 14px;
 }
 
-h3, .skills-container li {
+h3, .skills-container li, .header-container {
   /* uppercase and fancy font for skills list and edu heading */
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -133,7 +135,7 @@ p {
 .skills-container ul {
   /* so top of skills list aligns with header for skills */
   position: relative;
-  top: 20px;
+  top: 30px;
   left: 20px;
 }
 
