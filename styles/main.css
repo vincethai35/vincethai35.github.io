@@ -11,8 +11,11 @@ body, html {
     height: 100%;
     margin: 0;
 }
-.mySlides {display: none}
-img {vertical-align: middle;}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
 
 .titlepage-header {
   padding: 20px 50px 400px 50px;
@@ -28,6 +31,7 @@ img {vertical-align: middle;}
 .blurred {
   background-image: url("https://img.fonwall.ru/o/46/most_lavochki_skameyki_perila_zabor_61.jpg");
   position: absolute;
+  background-position: center;
   top: 0;
   left: 0;
   z-index: 1;
