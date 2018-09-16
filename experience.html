@@ -5,31 +5,31 @@
 <head>
   <title>Vincent Thai | Experience</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"/>
   <link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
-  <link href="style.css" type="text/css" rel="stylesheet">
+  <link href="styles/main.css" type="text/css" rel="stylesheet">
+  <link href="styles/exp.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
-  <div class="exppage-image"></div>
-  <div class="titlepage-nav">
-    <ul>
-      <li><a href="./contact.html">Contact</a></li>
-      <li><a href="./experience.html">Experience</a></li>
-      <li><a href="./about.html">About</a></li>
-      <li><a href="./index.html">Home</a></li>
-    </ul>
-  </div>
+  <header class="exppage-header">
+    <nav>
+      <h1 id="navhome" style="font-size:17px"><a href="./index.html">Vincent Thai</a></h1>
+      <ul>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./experience.html">Experience</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1 id="expname">Experience</h1>
+  </header>
 
-  <div class="exppage-header">
-    <h1 style="font-size:60px">Experience</h1>
-  </div>
-
-  <div class="skills-container">
+  <div class="container skills">
     <div class="row">
       <div class ="col-sm-4">
-        <h2>Skills</h2>
+        <h2 class="leftheader">Skills</h2>
       </div>
-      <div class="col-sm-8">
+      <div class="col-sm-8 details">
         <ul>
           <li>Java</li>
           <li>Swift</li>
@@ -42,44 +42,64 @@
     </div>
   </div>
 
-  <div class="proj-container">
+  <div class="container projects">
     <div class="row">
       <div class="col-sm-4">
-        <h2>Projects</h2>
+        <h2 class="leftheader">Projects</h2>
       </div>
-      <div class="col-sm-8">
-        <h3>Personal website</h3>
+      <div class="col-sm-8 details">
+        <h3 class="subtitles">Personal website</h3>
         <p>Worked on the website that you are currently browsing. Small scale
           project to develop HTML5 and CSS skills. Implemented Bootstrap to
           build web interface. </p>
         <br>
-        <h3>Match the Card</h3>
+        <h3 class="subtitles">Match the Card</h3>
         <p>Developed a minimum viable iOS application using Swift. Implemented
           a Model-View-Controller (MVC) pattern, as well as the matching logic,
           flipping animation, and sounds. Practiced various methods involving
           UIKit.</p>
         <br>
-        <h3>Twitter Bot</h3>
+        <h3 class="subtitles">Twitter Bot</h3>
         <p>Built a twitter bot to scrape images off websites, convert to image,
           and post to twitter account at a fixed interval.</p>
       </div>
     </div>
   </div>
 
-  <div class="edu-container">
+  <div class="container education">
     <div class="row">
       <div class="col-sm-4">
-        <h2>Education</h2>
+        <h2 class="leftheader">Education</h2>
       </div>
-      <div class="col-sm-8">
-        <h3>Bachelor of Computer Science</h3>
+      <div class="col-sm-8 details">
+        <h3 class="subtitles">Bachelor of Computer Science</h3>
         <p>University of California, Santa Cruz, September 2016 - June 2020</p>
         <br>
-        <h3>General Education, High School Diploma</h3>
+        <h3 class="subtitles">General Education, High School Diploma</h3>
         <p>Lowell High School, San Francisco, CA, 2012 - 2016</p>
       </div>
     </div>
   </div>
+
+  <footer>
+    <div class="container-fluid text-center">
+      <div class="row social-row">
+        <div class="col-sm-12">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/vincentthai35/"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://www.facebook.com/vince.thai533"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://www.instagram.com/50vincents/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://github.com/vincethai35"><i class="fab fa-github"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row footnotes">
+        <div class="col-sm-12">
+          <p><i class="far fa-copyright"></i> 2018 Vincent Thai</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

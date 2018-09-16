@@ -1,0 +1,16 @@
+.description-intro {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+
+.description-text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: black;
+  opacity: 0.8;
+  padding: 20px 200px 50px 20px;
+  border: 1px solid black;
+  margin-bottom: 30px;
+}

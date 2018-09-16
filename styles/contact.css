@@ -1,0 +1,58 @@
+
+/* ------------ CONTACT ------------------ */
+.contact-header {
+  padding: 20px 50px 20px 50px;
+  margin: 0;
+  background-color: black;
+}
+
+body {
+  background-color: #E2E6BA;
+}
+
+#contactname {
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  position: relative;
+  top: 50px;
+  color: black;
+  padding: 50px;
+}
+
+.myform-container {
+  position: relative;
+  left: 500px;
+  text-align: left;
+  display: block;
+  padding: 40px 0 100px 0;
+  margin: 50px 0 60px 0;
+}
+
+.outro {
+  text-align: left;
+  padding: 10px 50px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+input, textarea {
+  padding: 5px 5px;
+  width: 500px;
+  margin: 10px 0;
+  border: 1px solid #999;
+  background-color: #E2E6BA;
+}
+
+button {
+  padding: 10px 20px;
+  width: 500px;
+  cursor: pointer;
+  background-color: #999;
+  border: 1px solid #999;
+}
+
+button:hover {
+  color: white;
+  transition: .5s;
+}

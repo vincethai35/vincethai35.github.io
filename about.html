@@ -6,123 +6,68 @@
 
 <title>Vincent Thai | About Me</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-<link href="style.css" type="text/css" rel="stylesheet">
+<link href="styles/exp.css" type="text/css" rel="stylesheet">
+<link href="styles/main.css" type="text/css" rel="stylesheet">
+<link href="styles/about.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"/>
 <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
 
 </head>
 
 <body>
-  <header class="aboutpage-nav">
-    <ul>
-      <li><a href="./contact.html">Contact</a></li>
-      <li><a href="./experience.html">Experience</a></li>
-      <li><a href="./about.html">About</a></li>
-      <li><a href="./index.html">Home</a></li>
-    </ul>
+  <header class="exppage-header">
+    <nav>
+      <h1 id="navhome" style="font-size:17px"><a href="./index.html">Vincent Thai</a></h1>
+      <ul>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./experience.html">Experience</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <div class="about-head-container">
-    <div class="row">
+  <div class="container description-container">
+    <div class="row description-intro">
       <div class="col-sm-12">
-        <h1 style="font-size:60px">"Stronger than yesterday"</h1>
+        <h2>A little about myself...</h2>
+      </div>
+    </div>
+    <div class="row description-text">
+      <div class="col-sm-5">
+      </div>
+      <div class="col-sm-7">
+        <p>Hello! My name is Vincent and I'll be returning to UC Santa Cruz for my third year
+          in the fall. I'm studying Computer Science and hope to pursue a career as a full
+          stack developer. I love challenging myself with projects and am always eager and
+          willing to develop new skills.
+        </p>
+        <p>When I'm not doing work or eating my favorite food, sushi, I love keeping up with
+         basketball and baseball, specifically stats and boxscores. I also enjoy listening
+        to music and learning songs on my guitar. Fun fact: I love flannels!
+        </p>
       </div>
     </div>
   </div>
 
-  <div class="slideshow-container">
-
-    <div class="mySlides fade">
-      <img src="https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1060x600/format/jpg/quality/85/http%3A%2F%2Fo.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2F7439187b8a7c3471cd05a75863025801%2F204045387%2F531975899.jpg" style="width:100%">
-      <div class="text">San Francisco born and raised...</div>
+  <footer>
+    <div class="container-fluid text-center">
+      <div class="row social-row">
+        <div class="col-sm-12">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/vincentthai35/"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://www.facebook.com/vince.thai533"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://www.instagram.com/50vincents/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://github.com/vincethai35"><i class="fab fa-github"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row footnotes">
+        <div class="col-sm-12">
+          <p><i class="far fa-copyright"></i> 2018 Vincent Thai</p>
+        </div>
+      </div>
     </div>
-
-    <div class="mySlides fade">
-      <img src="https://cdn.vox-cdn.com/thumbor/8Dz8xxukJg_RC6v8VwEbFFwDlNY=/0x0:3564x2375/1820x1213/filters:focal(1359x256:1929x826):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/61139667/970199346.jpg.0.jpg" style="width:100%">
-      <div class="text">...and I love my sports teams</div>
-    </div>
-
-    <div class="mySlides fade">
-      <img src="http://www.icytales.com/wp-content/uploads/2015/10/bigstock-Female-hand-close-up-playing-o-530969982.jpg" style="width:100%">
-      <div class="text">Music is my passion</div>
-    </div>
-
-    <div class="mySlides fade">
-      <img src="https://kamloopsunited.ca/wp-content/uploads/2017/09/warm-shirts.jpg" style="width:100%">
-      <div class="text">I have an uncanny love for flannels</div>
-    </div>
-
-    <div class="mySlides fade">
-      <img src="http://images6.fanpop.com/image/photos/38800000/-Beautiful-Sushi-sushi-38873149-750-448.jpg" style="width:100%">
-      <div class="text">My favorite cuisine is Japanese</div>
-    </div>
-
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-  </div>
-  <br>
-
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-    <span class="dot" onclick="currentSlide(4)"></span>
-    <span class="dot" onclick="currentSlide(5)"></span>
-
-  </div>
-
-
-
-
-  <div class="description">
-    <h2>A little about myself...</h2>
-    <p>San Francisco born and raised, I grew up in a culture where we cherished
-      our sports teams, whether they were winning or not. I am a huge basketball
-      and baseball fan. I love fantasy sports and looking at stats and boxscores.
-      I love listening to music and learning songs on my guitar. Currently, aspiring
-      to learn piano as well. I am a huge flannel guy, and my favorite type of food
-      is probably Japanese.
-    </p>
-    <p>Hello! I'll be returning to UC Santa Cruz for my third year in the fall of 2018.
-      I'm originally from San Francisco and I'm hoping to pursue a career in machine learning and artificial intelligence.
-      Always eager and willing to develop new skills, and currently seeking internship opportunities.
-    </p>
-  </div>
-
-
-  <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-    }
-  </script>
-
-
-
-
-
+  </footer>
 
 </body>
 
