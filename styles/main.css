@@ -1,50 +1,61 @@
+/* ------ RESIZING/GENERAL THINGS --------- */
 * {
   margin:0; padding:0;
   box-sizing: border-box
 }
 
 body {
-  overflow-x: hidden;
+  font-family: 'Raleway', sans-serif;
 }
 
 body, html {
-    height: 100%;
     margin: 0;
+    height: 100%;
 }
 
-.container {
-    margin: 0 auto;
-    width: 1000px;
-}
-
-.titlepage-header {
-  padding: 20px 50px 400px 50px;
-  position: relative;
-  height: 100%;
-}
-
-.titlepage-header > *:not(.blurred) {
-  z-index: 5;
-  position: relative;
-}
-
-.blurred {
-  background-image: url("https://img.fonwall.ru/o/46/most_lavochki_skameyki_perila_zabor_61.jpg");
-  position: absolute;
-  background-position: center;
-  top: 0;
-  left: 0;
-  z-index: 1;
+/* ----- HOME PAGE BACKGROUND ---------- */
+header {
+  padding: 20px 50px 20px 50px;
+  margin-bottom: 50px;
+  background-color: transparent;
+  position: fixed;
   width: 100%;
-  height: 100%;
-  filter: blur(8px);
-  -webkit-filter: blur(2px);
 }
 
+header:hover {
+  background-color: black;
+  transition: 0.4s;
+}
+
+header:not(:hover) {
+  transition: 0.4s;
+}
+
+#titlepage-body {
+  background-image: url("https://img.fonwall.ru/o/46/most_lavochki_skameyki_perila_zabor_61.jpg");
+  background-position: center;
+}
+
+.contactname {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  position: relative;
+  top: 100px;
+  color: white;
+}
+
+.home-container {
+  padding: 180px 0;
+  margin-bottom: 200px;
+}
+
+/* ----------- NAV BAR ------------ */
 header h1 {
   margin: 0;
   display: inline;
-  font-family: 'Raleway', sans-serif;
   color: white;
 }
 
@@ -61,12 +72,11 @@ nav ul li {
   padding: 0 15px;
   color: white;
   font-size: 14px;
-  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
-nav ul li a {
+nav ul li a, #navhome a {
   color: white;
 }
 
@@ -75,29 +85,36 @@ nav li a:hover, #navhome a:hover {
   transition: .3s;
 }
 
-#titlescreen, #titlescreen2 {
-	text-align: center;
-  font-weight: bold;
+/* --------- SOCIAL MEDIA + FOOTER --------- */
+footer {
+  background-color: #333;
+  height: 200px;
+  margin: 0 auto;
+  position: static;
+}
+
+.social-row {
+  margin: 30px 0 0 0;
+}
+
+.social-row li {
+  display: inline-block;
+  font-size: 30px;
+  padding: 20px 30px;
+  list-style-type: none;
+}
+
+.social-row li a {
   color: white;
-  display: block;
-  font-family: 'Raleway', sans-serif;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
 }
 
-#titlescreen2 {
-  top: 55%;
+.social-row li a:hover {
+  color: black;
+  transition: .5s;
 }
 
-#navhome a {
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  transition: .3s;
+.footnotes {
+  padding: 10px 0 0 0;
+  font-size: 13px;
+  color: lightgrey;
 }
-
-
-/*   font-family: 'Poppins', sans-serif;
-*/

@@ -1,16 +1,30 @@
+body {
+  background-color: #ECECE0;
+}
+
 .description-intro {
-  font-family: 'Raleway', sans-serif;
+  position: relative;
   text-align: center;
-  padding: 20px 0;
-  margin: 20px 0;
+  padding-top: 100px;
+  margin: 50px 0;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: bold;
 }
 
 .description-text {
-  font-family: 'Raleway', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: black;
   opacity: 0.8;
-  padding: 20px 200px 50px 20px;
   border: 1px solid black;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  padding: 50px 0;
+}
+
+.profile-text {
+  border: 1px solid black;
+  padding-right: 100px;
+  padding-left: 50px;
 }

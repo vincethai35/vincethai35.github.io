@@ -1,13 +1,7 @@
 
 /* ------------ CONTACT ------------------ */
-.contact-header {
-  padding: 20px 50px 20px 50px;
-  margin: 0;
-  background-color: black;
-}
-
 body {
-  background-color: #E2E6BA;
+  background-color: #ECECE0;
 }
 
 #contactname {
@@ -17,10 +11,11 @@ body {
   position: relative;
   top: 50px;
   color: black;
-  padding: 50px;
+  padding: 75px 0 50px 0;
+  margin-top: 0;
 }
 
-.myform-container {
+.myform {
   text-align: left;
   display: block;
   padding: 40px 0 100px 0;
@@ -28,9 +23,8 @@ body {
 }
 
 .outro {
+  padding: 50px 50px 0 150px;
   text-align: left;
-  padding: 10px 50px;
-  font-family: 'Raleway', sans-serif;
   color: black;
 }
 
@@ -39,7 +33,7 @@ input, textarea {
   width: 500px;
   margin: 10px 0;
   border: 1px solid #999;
-  background-color: #E2E6BA;
+  background-color: #ECECE0;
 }
 
 button {
