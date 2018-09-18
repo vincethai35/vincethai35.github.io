@@ -9,8 +9,16 @@ body {
 }
 
 body, html {
-    margin: 0;
     height: 100%;
+    position: relative;
+}
+
+.main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 200px; /* height of your footer */
 }
 
 /* ----- HOME PAGE BACKGROUND ---------- */
@@ -34,6 +42,7 @@ header:not(:hover) {
 #titlepage-body {
   background-image: url("https://img.fonwall.ru/o/46/most_lavochki_skameyki_perila_zabor_61.jpg");
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .contactname {
@@ -89,8 +98,9 @@ nav li a:hover, #navhome a:hover {
 footer {
   background-color: #333;
   height: 200px;
-  margin: 0 auto;
-  position: static;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .social-row {
